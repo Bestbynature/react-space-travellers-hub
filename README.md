@@ -107,8 +107,9 @@ Clone this repository to your desired folder:
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Install
-
+```sh
 Install this project by running `npm install`
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Usage <a name="usage"></a>
