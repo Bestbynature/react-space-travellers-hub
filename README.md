@@ -50,11 +50,15 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Linter checks]**
+- **Reserve Mission**
+- **Reserve Rocket**
 - **[CRA]**
 - **[RESTFUL APIs]**
 - **[CSS grid and flexbox]**
 - **[Routers]**
 - **[React Testing Library]**
+- **Redux Logger**
+- **Route Navigation**
 - **[Redux Store]**
 
 
@@ -152,11 +156,11 @@ You can deploy this project using:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/damilareismailabestbynature/)
 
 
-**Second Author**
+**Oscar Deus**
 
-- GitHub: [@githubhandle]()
-- Twitter: [@twitterhandle]()
-- LinkedIn: [LinkedIn]()
+- GitHub: [@githubhandle](https://github.com/Oscah01)
+- Twitter: [@twitterhandle](https://twitter.com/alphonce_isaya)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oscardeus/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
