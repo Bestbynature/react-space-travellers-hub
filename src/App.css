@@ -63,12 +63,12 @@ nav span {
 
 .reserved {
   background-color: #fff;
-  border-color: 1px solid gray;
+  border: 1px solid gray;
   color: gray;
 }
 
 .available {
-  background-color: rgb(0,123,255);
+  background-color: rgb(0, 123, 255);
   border-radius: 5px;
   border: none;
   color: #fff;
@@ -83,11 +83,11 @@ nav span {
 }
 
 .rocket-item img {
- width: 100%;
+  width: 100%;
 }
 
 .rocket-item p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin: 1rem 0;
   line-height: 1.5rem;
   text-align: justify;
@@ -99,7 +99,7 @@ nav span {
 }
 
 .details span {
-  background-color: rgb(24,162,184);
+  background-color: rgb(24, 162, 184);
   margin-right: 10px;
   border-radius: 4px;
   padding: 3px;
@@ -120,45 +120,53 @@ nav span {
   grid-template-columns: 20% 60% 10% 10%;
 }
 
-.mission-item div:nth-of-type(2){
+.table-row div,
+.mission-item div {
+  border: 1px solid #e4e7eb;
+  padding: 5px;
+}
+
+.profile-mission div,
+.profile-rocket div {
+  border: 1px solid #e4e7eb;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding: 5px;
+}
+
+.mission-item div:nth-of-type(2) {
   text-align: justify;
   line-height: 1.5rem;
   font-size: 0.8rem;
 }
 
 .mission-item div:nth-of-type(3),
-.mission-item div:nth-of-type(4){
+.mission-item div:nth-of-type(4) {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .non-member {
- width: 100%;
- background-color: #727981;
- color: #fff;
- font-size: 0.6rem;
- border-radius: 3px;
- padding: 3px;
+  width: 100%;
+  background-color: #727981;
+  color: #fff;
+  font-size: 0.6rem;
+  border-radius: 3px;
+  padding: 3px;
 }
 
 .mission-item div:nth-of-type(4) button {
   width: 90%;
- cursor: pointer;
- padding: 5px;
- font-size: 0.75rem;
- border-color: transparents;
- }
+  cursor: pointer;
+  padding: 5px;
+  font-size: 0.75rem;
+  border-color: transparent;
+}
 
 .mission-item div:nth-of-type(3) button:hover,
 .mission-item div:nth-of-type(4) button:hover {
   filter: invert(100%);
-}
-
-.table-row div,
-.mission-item div {
-  border: 1px solid #e4e7eb;
-  padding: 5px;
 }
 
 .leave {
@@ -169,8 +177,8 @@ nav span {
 
 .member {
   color: #fff;
-  background-color: rgb(24,162,184);
-  border-color: rgb(24,162,184)
+  background-color: rgb(24, 162, 184);
+  border-color: rgb(24, 162, 184);
 }
 
 .my-profile {
@@ -184,15 +192,6 @@ nav span {
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
-
-.profile-mission div,
-.profile-rocket div {
-  border: 1px solid #e4e7eb;
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  padding: 5px;
-}
-
 
 @media only screen and (max-width: 840px) {
   header h1 {
