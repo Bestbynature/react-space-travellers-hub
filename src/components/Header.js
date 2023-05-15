@@ -1,10 +1,14 @@
 import React from 'react';
 import Navlink from './Navlink';
+import planet from '../assets/planet.png';
 
 const Header = () => (
   <>
-    <div className="header">Header</div>
-    <Navlink />
+    <header>
+      <img src={planet} alt="planet" />
+      <h1>Space Travelers&apos; Hub</h1>
+      <Navlink />
+    </header>
   </>
 );
 
