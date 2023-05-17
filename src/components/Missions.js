@@ -32,7 +32,7 @@ const Missions = () => {
         </div>
 
         {missions.map((mission) => (
-          <div key={mission.id} className="mission-item-container">
+          <div key={mission.id} className="mission-item-container" data-testid="mission-item">
             <Missionitem mission={mission} />
           </div>
         ))}
