@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, waitFor } from '@testing-library/react';
 import { useSelector, useDispatch } from 'react-redux';
-import '@testing-library/jest-dom/extend-expect'
+import '@testing-library/jest-dom/extend-expect';
 import Profilemission from '../components/Profilemission';
 import { getMissions } from '../redux/missions/missionsSlice';
 

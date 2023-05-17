@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'
+import '@testing-library/jest-dom/extend-expect';
 import { MemoryRouter } from 'react-router-dom';
 import Layout from '../components/Layout';
 
@@ -9,7 +9,7 @@ describe('Layout', () => {
     const { getByText } = render(
       <MemoryRouter>
         <Layout />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(getByText('Layout')).toBeInTheDocument();
   });

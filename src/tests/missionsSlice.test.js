@@ -104,8 +104,12 @@ describe('missionsSlice', () => {
       });
       expect(nextState.status).toEqual('succeeded');
       expect(nextState.missions).toEqual([
-        { id: 1, name: 'Mission 1', description: 'Description 1', joined: false },
-        { id: 2, name: 'Mission 2', description: 'Description 2', joined: false },
+        {
+          id: 1, name: 'Mission 1', description: 'Description 1', joined: false,
+        },
+        {
+          id: 2, name: 'Mission 2', description: 'Description 2', joined: false,
+        },
       ]);
       expect(nextState.loading).toBe(false);
     });
@@ -122,7 +126,7 @@ describe('missionsSlice', () => {
       const error = 'An error occurred.';
       const nextState = missionsReducer(initialState, {
         type: 'missions/fetchMissions/rejected',
-        error: error,
+        error,
       });
       expect(nextState.status).toEqual('failed');
       expect(nextState.error).toEqual(error.message);

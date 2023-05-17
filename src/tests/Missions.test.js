@@ -20,8 +20,12 @@ describe('Missions component', () => {
     useDispatch.mockReturnValue(jest.fn());
     useSelector.mockReturnValue({
       missions: [
-        { id: 1, name: 'Mission 1', description: 'Description 1', status: 'Pending' },
-        { id: 2, name: 'Mission 2', description: 'Description 2', status: 'Completed' },
+        {
+          id: 1, name: 'Mission 1', description: 'Description 1', status: 'Pending',
+        },
+        {
+          id: 2, name: 'Mission 2', description: 'Description 2', status: 'Completed',
+        },
       ],
       loading: false,
     });

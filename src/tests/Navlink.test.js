@@ -22,7 +22,7 @@ describe('Navlink', () => {
     const { getByText, getByRole } = render(
       <MemoryRouter>
         <Navlink />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(getByText('Rockets')).toBeInTheDocument();
     expect(getByText('Missions')).toBeInTheDocument();

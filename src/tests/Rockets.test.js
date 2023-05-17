@@ -2,7 +2,7 @@ import React from 'react';
 import { render, waitFor } from '@testing-library/react';
 import { useDispatch, useSelector } from 'react-redux';
 import Rockets from '../components/Rockets';
-import '@testing-library/jest-dom/extend-expect'
+import '@testing-library/jest-dom/extend-expect';
 import { fetchRockets } from '../redux/rockets/rocketsSlice';
 import { activechoose } from '../redux/missions/missionsSlice';
 

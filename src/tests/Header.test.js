@@ -13,7 +13,7 @@ describe('Header component', () => {
         <Router>
           <Header />
         </Router>
-      </Provider>
+      </Provider>,
     );
 
     const planetImage = screen.getByAltText('planet');

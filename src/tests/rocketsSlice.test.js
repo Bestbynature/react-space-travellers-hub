@@ -14,8 +14,8 @@ describe('rocketsSlice', () => {
 
   it('should handle fetchRockets', async () => {
     await store.dispatch(fetchRockets());
-    const rockets = store.getState().rockets.rockets;
-    const loading = store.getState().rockets.loading;
+    const { rockets } = store.getState().rockets;
+    const { loading } = store.getState().rockets;
     expect(rockets).toHaveLength(4);
     expect(loading).toBe(false);
   });
