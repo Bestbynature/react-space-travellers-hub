@@ -26,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [React-space-travellers-hub] <a name="about-project"></a>
+# 📖 [React-space-travellers-hub](https://react-space-travellers-hub.onrender.com) <a name="about-project"></a>
 
-**[React-space-travellers-hub]**  is a web application for a company that provides commercial and scientific space travel services. It works with real live data from the SpaceX API and allows users to book rockets and join selected space missions.
+**[React-space-travellers-hub](https://react-space-travellers-hub.onrender.com)** is a web application for a company that provides commercial and scientific space travel services. It works with real live data from the SpaceX API and allows users to book rockets and join selected space missions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -68,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-### **Please check back later**
+### [Space Travellers Hub](https://react-space-travellers-hub.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +148,7 @@ You can deploy this project using:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Damilare Ismaila**
 
