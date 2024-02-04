@@ -57,7 +57,6 @@
 - **[CSS grid and flexbox]**
 - **[Routers]**
 - **[React Testing Library]**
-- **Redux Logger**
 - **Route Navigation**
 - **[Redux Store]**
 
